@@ -1,0 +1,19 @@
+/*styling h1 tag with underline and auto uppercase*/
+h1{
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+li{
+	color: green;
+	text-transform: uppercase;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+h3{
+	text-decoration: underline;
+}

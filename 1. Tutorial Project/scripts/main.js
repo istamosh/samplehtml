@@ -1,0 +1,1 @@
+alert("Welcome to Istamosh's Web, do enjoy your stay");

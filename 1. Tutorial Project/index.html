@@ -1,0 +1,101 @@
+<!-- Boilerplate -->
+<!-- document identifier, known as the 'plate' -->
+<!DOCTYPE html>
+<!-- need a 'sandwich bread' -->
+<html>
+<!-- a mayonaise -->
+<head>
+
+	<!-- meta tag for charset, and it's self contained (with /) -->
+	<meta charset="utf-8" />
+	<meta name="keywords" content="Laravel, IT, Alfian, Ferdinan">
+	<meta name="description" content="We provide Laravel coder and other IT solution at a reasonable price!">
+	<title>Istamosh's Web</title>
+
+	<!-- styling serviceList division on "a link" w/ red, and "list" with blue-->
+	<style>
+		#serviceList a{
+			color: red;
+		}
+		#serviceList li{
+			color: blue;
+		}
+	</style>
+ 
+	<!-- find linked css style file, this will get overriden by style block above -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<!-- the meat of a sandwich -->
+<body>
+
+	<div id="test">
+		<!-- some shortcut, i hate scrolling down to main -->
+		<a href="#top">go to main</a>
+		<h1>Welcome to Istaweb</h1>
+		<p>this is Istamosh first website, one step to a great Laravel coder.</p>
+
+		<p>Embed small paragraph tag begin <small>test</small></p>
+		<p>Embed marked paragraph tag begin <mark>test</mark></p>
+		<p>Embed subscript paragraph tag begin <sub>test</sub></p>
+		<p>Embed paragraph tag begin with superscript 6<sup>4</sup></p>
+		<p><pre>
+			Embed preformatted paragraph
+			tag begin test</pre></p>
+
+		<h1>This is h1 tag.</h1>
+		<h2>This is h2 tag.</h2>
+		<h3>This is h3 tag.</h3>
+		<h4>This is h4 tag.</h4>
+		<h5>This is h5 tag.</h5>
+	</div>
+
+	<div id="top">
+		<h1>Istamosh web</h1>
+		<p>We offer various web services</p>
+
+		<!-- embed image into the web, width scaled from browser capability (doing it better in css) -->
+		<img src="img/sample_truck.jpg" width="20%" alt="webpage cover">
+		<br>
+		<!-- test for download link, in pdf format as example, with inline style css tag -->
+		<a href="downloads/sample_truck.pdf" target="_blank" style="color: gray;">Download PDF image here!</a>
+	</div>
+	
+	<div id="serviceList">
+		<hr>
+		<h2>Services such as:</h2>
+		<!-- unordered list/bullets -->
+		<ul>
+			<li>Hosting</li>
+			<li>Designing</li>
+		</ul>
+		<!-- ordered list/numbers -->
+		<h3>Designing includes:</h3>
+		<ol>
+			<li>Fullstack</li>
+			<li>Front-End only</li>
+			<li>Back-End only</li>
+		</ol>
+		<a onclick="alert('you are now navigating to prices page');" href="prices/fee.html">Not sure what to choose? check out more here!</a>
+		<hr>
+	</div>
+
+	<div id="about">
+		<h4>About us</h4>
+		<p>We offer almost your web needs ranging from bugfixing, editing, and programming.</p>
+		<!-- anchor link to different page relative to folder -->
+		<a href="contact.html">Contact us</a>
+		<br>
+		<!-- back to top link -->
+		<a href="#top">Back to top</a>
+	</div>
+	
+	<!-- adding JS into the page, for example the annoying pop up
+	<script>
+		alert("Welcome to Istaweb, do enjoy your stay!");
+	</script> -->
+	<!-- this stuff below will link to JS file same as CSS behaviour-->
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+</html>
